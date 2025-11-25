@@ -1,7 +1,7 @@
 {
     "source_document": "output_results/resized_images/soa_1_page_1_fitz_resized.png",
     "source_page_number": 0,
-    "processing_timestamp_utc": "2025-11-25T00:13:09.541788+00:00",
+    "processing_timestamp_utc": "2025-11-25T21:37:07.390446+00:00",
     "status": "Layout extraction successful (Docker Inference)",
     "content": [
         {
