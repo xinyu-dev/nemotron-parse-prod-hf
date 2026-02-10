@@ -1,0 +1,122 @@
+{
+    "source_document": "output_results/converted_images/soa_1/fitz/soa_1_page_1_fitz.png",
+    "source_page_number": 0,
+    "processing_timestamp_utc": "2026-02-10T02:54:19.409403+00:00",
+    "status": "Layout extraction successful (Docker Inference)",
+    "content": [
+        {
+            "extraction_id": 0,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-header",
+                "bbox": {
+                    "xmin": 394.0607,
+                    "ymin": 188.7110358798283,
+                    "xmax": 3107.9213000000004,
+                    "ymax": 284.22676738197435
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "**_Symphogen Trial ID: Sym004-09_** # Clinical Trial Protocol Version 4.0"
+            }
+        },
+        {
+            "extraction_id": 1,
+            "metadata": {
+                "source_page": 0,
+                "type": "Text",
+                "bbox": {
+                    "xmin": 390.5516999999999,
+                    "ymin": 1970.7990674678113,
+                    "xmax": 3084.0601,
+                    "ymax": 2103.8232597424894
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Abbreviations (in alphabetical order): ADA, anti-drug antibody; C, Cycle; CT, computed tomography scan; D/d, day(s); DLT, dose-limiting toxicity; EOT, End of trial treatment Visit (Sym004 and FOLFIRI); ECG, electrocardiography; ECOG PS, Eastern Cooperative Oncology Group performance status; MRI, magnetic resonance imaging; 1M FUP, One Month Follow-up Visit; PK, pharmacokinetic; (S)AE, (serious) adverse event; TX, therapy"
+            }
+        },
+        {
+            "extraction_id": 2,
+            "metadata": {
+                "source_page": 0,
+                "type": "Footnote",
+                "bbox": {
+                    "xmin": 397.5697,
+                    "ymin": 2137.8425613733907,
+                    "xmax": 870.2320000000001,
+                    "ymax": 2171.861863004292
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "\\*Omitted with Amendment 3"
+            }
+        },
+        {
+            "extraction_id": 3,
+            "metadata": {
+                "source_page": 0,
+                "type": "Page-footer",
+                "bbox": {
+                    "xmin": 394.0607,
+                    "ymin": 2256.910117081545,
+                    "xmax": 3101.2542,
+                    "ymax": 2301.396896137339
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "Confidential Page 35 of 122"
+            }
+        },
+        {
+            "extraction_id": 4,
+            "metadata": {
+                "source_page": 0,
+                "type": "Table",
+                "bbox": {
+                    "xmin": 401.07869999999997,
+                    "ymin": 396.7521496995709,
+                    "xmax": 3111.4303,
+                    "ymax": 1943.3219392274677
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "tabular",
+                "content_html": "<table>\n  <tr>\n    <td colspan=\"2\">Pre-Treatment Phase</td>\n    <td colspan=\"7\">Treatment Phase1</td>\n    <td colspan=\"2\">Post-Treatment Phase</td>\n  </tr>\n  <tr>\n    <td>Cycle Number</td>\n    <td>Screening</td>\n    <td colspan=\"3\">Cycle 1</td>\n    <td colspan=\"2\">Cycle 2, 4, 6 etc.</td>\n    <td colspan=\"2\">Cycle 3, 5, 7 etc.</td>\n    <td>EOT</td>\n    <td>1M FUP</td>\n  </tr>\n  <tr>\n    <td>Day within Cycle</td>\n    <td>D-14 to D-1</td>\n    <td>D1</td>\n    <td>D8</td>\n    <td>D15</td>\n    <td>D22</td>\n    <td>D1</td>\n    <td>D15</td>\n    <td>D1</td>\n    <td>D15</td>\n    <td>\u2264 10 d from the decision of trial treatment withdrawal</td>\n    <td>1 month after last dose of trial treatment (28+7d)</td>\n  </tr>\n  <tr>\n    <td>Visit Window (\u00b1 days)</td>\n    <td></td>\n    <td></td>\n    <td>(\u00b12)</td>\n    <td>(\u00b12)</td>\n    <td>(\u00b12)</td>\n    <td></td>\n    <td>(\u00b12)</td>\n    <td></td>\n    <td>(\u00b12)</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Informed Consent</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Baseline Characteristics/Eligibility2</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Safety Assessments</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Medication Survey</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>(S)AE Survey and Reporting</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>DLT Evaluation (dose-escalation only)3</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>C2/D1</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Vital Signs and Body Weight</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>ECOG PS</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>Physical Examination</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>Dermatological Examination</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>ECG4</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Safety blood samples5</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>Urinalysis5</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>Pregnancy Test</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Disease Assessments</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>(Archival) Tumor Biopsy Collection6,7</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Tumor Marker Evaluation8</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>End of C</td>\n    <td></td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>Disease Status Evaluation by CT/ MR8,10</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>End of C</td>\n    <td></td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>Additional Assessments</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>*PK Samples (dose-escalation only)11</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>*ADA Sample</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>*Biomarker Blood and Urine Sample12</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>End of C2</td>\n    <td></td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Trial Treatment</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Skin Toxicity Prophylaxis and TX13</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n  </tr>\n  <tr>\n    <td>Infusion Reaction Prophylaxis 14</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Sym004 Infusion</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Gastrointestinal Toxicity Prophylaxis 15</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>FOLFIRI Infusion</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Post-Infusion Monitoring</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td></td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td>X</td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>"
+            }
+        },
+        {
+            "extraction_id": 5,
+            "metadata": {
+                "source_page": 0,
+                "type": "Caption",
+                "bbox": {
+                    "xmin": 1230.2554,
+                    "ymin": 342.234038111588,
+                    "xmax": 2268.5685000000003,
+                    "ymax": 386.2846722746781
+                }
+            },
+            "confidence": "N/A",
+            "extraction_status": "Success",
+            "data": {
+                "type": "textual",
+                "content": "** 2 Flow Chart \u2013 Schedule of Assessments**"
+            }
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
   "pipeline_step": "step1_pdf_to_images",
-  "timestamp_start_utc": "2025-11-25T21:34:04.147187+00:00",
-  "timestamp_end_utc": "2025-11-25T21:34:04.693538+00:00",
+  "timestamp_start_utc": "2026-02-10T02:50:29.193025+00:00",
+  "timestamp_end_utc": "2026-02-10T02:50:29.675600+00:00",
   "config": {
     "DPI": 300,
     "OUTPUT_FORMAT": "PNG",
@@ -18,11 +18,11 @@
   },
   "files": [
     {
-      "pdf": "/home/ubuntu/nim-dev/models/nemotron-parse-prod-hf/data/tables/soa_1.pdf",
-      "output_base": "/home/ubuntu/nim-dev/models/nemotron-parse-prod-hf/output_results/converted_images/soa_1",
+      "pdf": "/home/ubuntu/nemotron-parse-prod-hf/data/tables/soa_1.pdf",
+      "output_base": "/home/ubuntu/nemotron-parse-prod-hf/output_results/converted_images/soa_1",
       "pdf2image_pages": 0,
       "fitz_pages": 1
     }
   ],
-  "output_root": "/home/ubuntu/nim-dev/models/nemotron-parse-prod-hf/output_results/converted_images"
+  "output_root": "/home/ubuntu/nemotron-parse-prod-hf/output_results/converted_images"
 }
